@@ -1,5 +1,5 @@
 {
-	"name": "node-req-resp-examples",
+	"name": "hyperdev-req-resp-ex-1",
 	"version": "0.0.1",
 	"description": "",
 	"main": "server.js",
@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Thinkful-Ed/node-req-resp-examples"
+		"url": "https://github.com/Thinkful-Ed/hyperdev-req-resp-ex-1"
 	},
 	"keywords": [
 		"thinkful",
