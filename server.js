@@ -42,10 +42,10 @@ const logRequest = (req, res, next) => {
 // the request method.
 app.all('/', logRequest);
 // GET requests to the root of the server
-app.get('/', (req, res) => res.send('a okay').end());
+app.get('/', (req, res) => res.send('a okay'));
 // POST requests to the root of the server
-app.post('/', (req, res) => res.status(201).send('a okay').end());
+app.post('/', (req, res) => res.status(201).send('a okay'));
 
-// listen for requests :)
-app.listen(process.env.PORT, () => console.log(
-  `Your app is listening on port ${process.env.PORT}`));
+// listen for requests
+app.listen(process.env.PORT || 8080, () => console.log(
+  `Your app is listening on port ${process.env.PORT || 8080}`));
