@@ -1,0 +1,27 @@
+{
+	"name": "hyperdev-req-resp-ex-1",
+	"version": "0.0.1",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node --harmony --harmony_destructuring server.js"
+	},
+	"dependencies": {
+		"express": "^4.14.0",
+    "body-parser": "^1.15.2"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Thinkful-Ed/hyperdev-req-resp-ex-1"
+	},
+	"keywords": [
+		"thinkful",
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
