@@ -31,7 +31,7 @@ const logRequest = (req, res, next) => {
     query: JSON.stringify(req.query),
     body: JSON.stringify(req.body)
   }
-  Object.keys(logObj).forEach(key => console.log(`request ${key}: ${logObj[key]}`));
+  console.dir(logObj);
   // we'll learn more about middleware later in this course, but for now
   // know that calling `next()` causes the next function in the middleware stack
   // to be called
