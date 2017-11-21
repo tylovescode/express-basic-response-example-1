@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "node --harmony --harmony_destructuring server.js"
+		"start": "node server.js"
 	},
 	"dependencies": {
 		"express": "^4.14.0",
