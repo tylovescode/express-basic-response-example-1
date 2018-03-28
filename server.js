@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 
-// our app will use bodyParser to try to 
+// Our app will use bodyParser to try to 
 // parse JSON and/or URL encoded data from
 // request bodies. If you don't add 
 // body parsing middleware, even if the raw
